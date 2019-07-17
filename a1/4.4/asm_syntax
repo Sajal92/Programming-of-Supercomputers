@@ -1,0 +1,6 @@
+Intel syntax        | AT&T syntax           |
+                    |                       |
+mov     eax,1       | movl    $1,%eax       | move 1 to eax
+mov     ebx,0ffh    | movl    $0xff,%ebx    | move 0xff to ebx
+int     80h         | int     $0x80         | generate interrupt 80
+                    |                       |

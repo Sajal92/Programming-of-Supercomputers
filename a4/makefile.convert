@@ -1,0 +1,10 @@
+CC = icc
+SRC = convert.c
+
+all: convert
+
+convert:
+	$(CC) -o convert $(SRC)
+
+clean:
+	/bin/rm -f convert *.o

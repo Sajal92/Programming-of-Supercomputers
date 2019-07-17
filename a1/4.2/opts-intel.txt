@@ -1,0 +1,15 @@
+0 -march=native
+1 -xHost
+2 -unroll
+3 -ipo
+01 -march=native -xHost
+02 -march=native -unroll
+03 -march=native -ipo
+12 -xHost -unroll
+13 -xHost -ipo
+23 -unroll -ipo
+012 -march=native -xHost -unroll
+013 -march=native -xHost -ipo
+023 -march=native -unroll -ipo
+123 -xHost -unroll -ipo
+0123 -march=native -xHost -unroll -ipo

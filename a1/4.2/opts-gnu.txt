@@ -1,0 +1,127 @@
+0 -march=native
+1 -fomit-frame-pointer
+2 -floop-block
+3 -floop-interchange
+4 -floop-strip-mine
+5 -funroll-loops
+6 -flto
+01 -march=native -fomit-frame-pointer
+02 -march=native -floop-block
+03 -march=native -floop-interchange
+04 -march=native -floop-strip-mine
+05 -march=native -funroll-loops
+06 -march=native -flto
+12 -fomit-frame-pointer -floop-block
+13 -fomit-frame-pointer -floop-interchange
+14 -fomit-frame-pointer -floop-strip-mine
+15 -fomit-frame-pointer -funroll-loops
+16 -fomit-frame-pointer -flto
+23 -floop-block -floop-interchange
+24 -floop-block -floop-strip-mine
+25 -floop-block -funroll-loops
+26 -floop-block -flto
+34 -floop-interchange -floop-strip-mine
+35 -floop-interchange -funroll-loops
+36 -floop-interchange -flto
+45 -floop-strip-mine -funroll-loops
+46 -floop-strip-mine -flto
+56 -funroll-loops -flto
+012 -march=native -fomit-frame-pointer -floop-block
+013 -march=native -fomit-frame-pointer -floop-interchange
+014 -march=native -fomit-frame-pointer -floop-strip-mine
+015 -march=native -fomit-frame-pointer -funroll-loops
+016 -march=native -fomit-frame-pointer -flto
+023 -march=native -floop-block -floop-interchange
+024 -march=native -floop-block -floop-strip-mine
+025 -march=native -floop-block -funroll-loops
+026 -march=native -floop-block -flto
+034 -march=native -floop-interchange -floop-strip-mine
+035 -march=native -floop-interchange -funroll-loops
+036 -march=native -floop-interchange -flto
+045 -march=native -floop-strip-mine -funroll-loops
+046 -march=native -floop-strip-mine -flto
+056 -march=native -funroll-loops -flto
+123 -fomit-frame-pointer -floop-block -floop-interchange
+124 -fomit-frame-pointer -floop-block -floop-strip-mine
+125 -fomit-frame-pointer -floop-block -funroll-loops
+126 -fomit-frame-pointer -floop-block -flto
+134 -fomit-frame-pointer -floop-interchange -floop-strip-mine
+135 -fomit-frame-pointer -floop-interchange -funroll-loops
+136 -fomit-frame-pointer -floop-interchange -flto
+145 -fomit-frame-pointer -floop-strip-mine -funroll-loops
+146 -fomit-frame-pointer -floop-strip-mine -flto
+156 -fomit-frame-pointer -funroll-loops -flto
+234 -floop-block -floop-interchange -floop-strip-mine
+235 -floop-block -floop-interchange -funroll-loops
+236 -floop-block -floop-interchange -flto
+245 -floop-block -floop-strip-mine -funroll-loops
+246 -floop-block -floop-strip-mine -flto
+256 -floop-block -funroll-loops -flto
+345 -floop-interchange -floop-strip-mine -funroll-loops
+346 -floop-interchange -floop-strip-mine -flto
+356 -floop-interchange -funroll-loops -flto
+456 -floop-strip-mine -funroll-loops -flto
+0123 -march=native -fomit-frame-pointer -floop-block -floop-interchange
+0124 -march=native -fomit-frame-pointer -floop-block -floop-strip-mine
+0125 -march=native -fomit-frame-pointer -floop-block -funroll-loops
+0126 -march=native -fomit-frame-pointer -floop-block -flto
+0134 -march=native -fomit-frame-pointer -floop-interchange -floop-strip-mine
+0135 -march=native -fomit-frame-pointer -floop-interchange -funroll-loops
+0136 -march=native -fomit-frame-pointer -floop-interchange -flto
+0145 -march=native -fomit-frame-pointer -floop-strip-mine -funroll-loops
+0146 -march=native -fomit-frame-pointer -floop-strip-mine -flto
+0156 -march=native -fomit-frame-pointer -funroll-loops -flto
+0234 -march=native -floop-block -floop-interchange -floop-strip-mine
+0235 -march=native -floop-block -floop-interchange -funroll-loops
+0236 -march=native -floop-block -floop-interchange -flto
+0245 -march=native -floop-block -floop-strip-mine -funroll-loops
+0246 -march=native -floop-block -floop-strip-mine -flto
+0256 -march=native -floop-block -funroll-loops -flto
+0345 -march=native -floop-interchange -floop-strip-mine -funroll-loops
+0346 -march=native -floop-interchange -floop-strip-mine -flto
+0356 -march=native -floop-interchange -funroll-loops -flto
+0456 -march=native -floop-strip-mine -funroll-loops -flto
+1234 -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine
+1235 -fomit-frame-pointer -floop-block -floop-interchange -funroll-loops
+1236 -fomit-frame-pointer -floop-block -floop-interchange -flto
+1245 -fomit-frame-pointer -floop-block -floop-strip-mine -funroll-loops
+1246 -fomit-frame-pointer -floop-block -floop-strip-mine -flto
+1256 -fomit-frame-pointer -floop-block -funroll-loops -flto
+1345 -fomit-frame-pointer -floop-interchange -floop-strip-mine -funroll-loops
+1346 -fomit-frame-pointer -floop-interchange -floop-strip-mine -flto
+1356 -fomit-frame-pointer -floop-interchange -funroll-loops -flto
+1456 -fomit-frame-pointer -floop-strip-mine -funroll-loops -flto
+2345 -floop-block -floop-interchange -floop-strip-mine -funroll-loops
+2346 -floop-block -floop-interchange -floop-strip-mine -flto
+2356 -floop-block -floop-interchange -funroll-loops -flto
+2456 -floop-block -floop-strip-mine -funroll-loops -flto
+3456 -floop-interchange -floop-strip-mine -funroll-loops -flto
+01234 -march=native -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine
+01235 -march=native -fomit-frame-pointer -floop-block -floop-interchange -funroll-loops
+01236 -march=native -fomit-frame-pointer -floop-block -floop-interchange -flto
+01245 -march=native -fomit-frame-pointer -floop-block -floop-strip-mine -funroll-loops
+01246 -march=native -fomit-frame-pointer -floop-block -floop-strip-mine -flto
+01256 -march=native -fomit-frame-pointer -floop-block -funroll-loops -flto
+01345 -march=native -fomit-frame-pointer -floop-interchange -floop-strip-mine -funroll-loops
+01346 -march=native -fomit-frame-pointer -floop-interchange -floop-strip-mine -flto
+01356 -march=native -fomit-frame-pointer -floop-interchange -funroll-loops -flto
+01456 -march=native -fomit-frame-pointer -floop-strip-mine -funroll-loops -flto
+02345 -march=native -floop-block -floop-interchange -floop-strip-mine -funroll-loops
+02346 -march=native -floop-block -floop-interchange -floop-strip-mine -flto
+02356 -march=native -floop-block -floop-interchange -funroll-loops -flto
+02456 -march=native -floop-block -floop-strip-mine -funroll-loops -flto
+03456 -march=native -floop-interchange -floop-strip-mine -funroll-loops -flto
+12345 -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine -funroll-loops
+12346 -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine -flto
+12356 -fomit-frame-pointer -floop-block -floop-interchange -funroll-loops -flto
+12456 -fomit-frame-pointer -floop-block -floop-strip-mine -funroll-loops -flto
+13456 -fomit-frame-pointer -floop-interchange -floop-strip-mine -funroll-loops -flto
+23456 -floop-block -floop-interchange -floop-strip-mine -funroll-loops -flto
+012345 -march=native -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine -funroll-loops
+012346 -march=native -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine -flto
+012356 -march=native -fomit-frame-pointer -floop-block -floop-interchange -funroll-loops -flto
+012456 -march=native -fomit-frame-pointer -floop-block -floop-strip-mine -funroll-loops -flto
+013456 -march=native -fomit-frame-pointer -floop-interchange -floop-strip-mine -funroll-loops -flto
+023456 -march=native -floop-block -floop-interchange -floop-strip-mine -funroll-loops -flto
+123456 -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine -funroll-loops -flto
+0123456 -march=native -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine -funroll-loops -flto

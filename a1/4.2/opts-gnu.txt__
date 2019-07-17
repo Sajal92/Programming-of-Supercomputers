@@ -1,0 +1,7 @@
+0 -march=native
+1 -fomit-frame-pointer
+5 -funroll-loops
+01 -march=native -fomit-frame-pointer
+05 -march=native -funroll-loops
+15 -fomit-frame-pointer -funroll-loops
+015 -march=native -fomit-frame-pointer -funroll-loops
